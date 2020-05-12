@@ -1,0 +1,10 @@
+{
+	"name": "OptionSample",
+	"manifest_version": 2,
+	"version": "1.0",
+	"permissions": ["https://dev.classmethod.jp/"],
+	"browser_action": {
+		"default_icon": "icon_128.png",
+		"default_popup": "popup.html"
+	}
+}
