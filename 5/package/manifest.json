@@ -1,0 +1,14 @@
+{
+    "name": "newtab",
+    "manifest_version": 2,
+	"version": "0.1",
+	"permissions": [
+	],
+	"browser_action": {
+		"default_icon": "icon_128.png",
+		"name": "This is Badge Sample"
+	},
+	"chrome_url_overrides": {
+		"newtab": "newtab.html"
+	}
+}
